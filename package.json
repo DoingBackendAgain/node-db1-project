@@ -4,13 +4,13 @@
     "main": "index.js",
     "scripts": {
         "server": "nodemon index.js",
-        "start" : "nodemon index.js"
-
+        "start": "nodemon index.js"
     },
     "repository": "https://github.com/LambdaSchool/node-db1-project",
     "dependencies": {
         "express": "^4.17.1",
         "knex": "^0.21.12",
+        "node-pre-gyp": "^0.17.0",
         "pg": "^8.5.1",
         "sqlite3": "^5.0.0"
     },
